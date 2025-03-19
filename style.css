@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0rem;
+  background: #f7f7f7;
+  display: grid;
+  gap: 3.75rem;
+  justify-items: center;
+  margin-top: 3.75rem;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0rem;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.3rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0rem;
+  margin: 0rem;
+  gap: 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  justify-content: center;
+}
+
+.menu a {
+  background: #ffffff;
+  padding: 0.938rem 1.875rem;
+  border-radius: 0.25rem;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.menu a:hover {
+  border: 0.063rem solid #e21;
+}
+
+.conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 62.5rem;
+}
+
+.introducao {
+  background: #fff;
+  padding: 2.5rem;
+  text-align: right;
+  position: relative;
+  display: grid;
+  gap: 1.25rem;
+  align-content: center;
+  justify-items: end;
+}
+
+.detalhe {
+  width: 3.75rem;
+  height: 0.25rem;
+  background: #e21;
+  position: absolute;
+  top: 1.875rem;
+  right: -1.875rem;
+}
+
+.botao {
+  background: #ee2211;
+  color: #ffffff;
+  padding: 0.938rem 1.875rem;
+  border-radius: 0.25rem;
+  text-transform: uppercase;
+}
+
+.botao:hover {
+  background: #900;
+}
+
+.subtitulo {
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.2);
+  text-align: right;
+  padding: 2.5rem;
+  align-self: center;
+}
+
+.vantagens {
+  background: #fff;
+  padding: 2.5rem;
+}
+
+.vantagens-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.625rem 1.25rem;
+  padding: 1.25rem;
+}
+
+.vantagens-item p {
+  grid-column: 2;
+}
+
+.vantagens:hover {
+  border-left: #900 0.125rem;
+}
+.rodape {
+  background: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 2.5rem;
+  box-sizing: border-box;
+}
